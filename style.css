@@ -38,18 +38,18 @@
   display: flex;
 }
 .tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .task,
 .title {
-  list-style:none;
+  list-style: none;
 }
 .input-wrapper__input,
 .task__checkbox,
 .task__input,
 .btn {
-  outline:none;
+  outline: none;
 }
 .btn {
   background: none;
@@ -145,12 +145,12 @@
 
 /* Edit Task */
 .task__input{
-  display:none
+  display: none
 }
 .editMode > .task__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 .editMode .task__content {
-  display:none;
+  display: none;
 }
