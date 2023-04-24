@@ -32,7 +32,7 @@
 .input-wrapper__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .input-wrapper {
   display: flex;
@@ -65,8 +65,7 @@
 }
 
 /* Heading */
-.title,
-.add-form__title {
+.title, .add-form__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -75,8 +74,7 @@
   margin: 0;
   text-transform: uppercase;
 }
-.input-wrapper__input,
-.task__input {
+.input-wrapper__input, .task__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -88,8 +86,7 @@
   font-family: lato, sans-serif;
   color: #888;
 }
-.input-wrapper__input:focus,
-.task__input:focus {
+.input-wrapper__input:focus, .task__input:focus {
   color: #333;
 }
 
@@ -126,7 +123,7 @@
   width: 226px;
 }
 .task > .task__input {
-  width: 226px
+  width: 226px;
 }
 .delete-btn__img {
   height: 2em;
@@ -145,11 +142,11 @@
 
 /* Edit Task */
 .task__input{
-  display: none
+  display: none;
 }
 .editMode > .task__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 .editMode .task__content {
   display: none;
