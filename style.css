@@ -65,7 +65,8 @@
 }
 
 /* Heading */
-.title, .add-form__title {
+.title,
+.add-form__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -74,7 +75,8 @@
   margin: 0;
   text-transform: uppercase;
 }
-.input-wrapper__input, .task__input {
+.input-wrapper__input,
+ .task__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -86,16 +88,17 @@
   font-family: lato, sans-serif;
   color: #888;
 }
-.input-wrapper__input:focus, .task__input:focus {
+.input-wrapper__input:focus,
+ .task__input:focus {
   color: #333;
 }
 
 /* New Task */
-.add-form__title{
+.add-form__title {
   display: block;
   margin: 0 0 20px;
 }
-.input-wrapper__input{
+.input-wrapper__input {
   width: 318px;
 }
 
@@ -141,7 +144,7 @@
 }
 
 /* Edit Task */
-.task__input{
+.task__input {
   display: none;
 }
 .editMode > .task__input {
